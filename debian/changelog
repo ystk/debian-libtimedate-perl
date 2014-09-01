@@ -1,3 +1,44 @@
+libtimedate-perl (2.3000-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Damyan Ivanov ]
+  * add patch from Aleksey Midenkov fixing Moscow time zone (UTC+0400)
+    (Closes: #693809)
+
+ -- Damyan Ivanov <dmn@debian.org>  Fri, 11 Apr 2014 23:42:24 +0300
+
+libtimedate-perl (2.3000-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * Set Standards-Version to 3.9.1; replace Conflicts with Breaks.
+  * Switch to source format 3.0 (quilt).
+  * debian/copyright: update formatting.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ Florian Schlichting ]
+  * Import Upstream version 2.3000
+  * Add copyright stanza for Bulgarian.pm
+  * Note forwarding address for fix-pod-errors.patch
+  * Bump dh compatibility to level 8
+  * Declare compliance with Debian Policy 3.9.5
+  * Add myself to uploaders and copyright
+
+ -- Florian Schlichting <fsfs@debian.org>  Fri, 29 Nov 2013 22:28:27 +0100
+
 libtimedate-perl (1.2000-1) unstable; urgency=low
 
   [ gregor herrmann ]

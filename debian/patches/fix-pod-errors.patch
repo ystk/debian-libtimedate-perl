@@ -1,7 +1,7 @@
 Description: fix POD errors
 Author: Jonathan Yu <jawnsy@cpan.org>
 Origin: vendor
-Forwarded: no
+Forwarded: https://rt.cpan.org/Public/Bug/Display.html?id=53557
 --- a/lib/Date/Parse.pm
 +++ b/lib/Date/Parse.pm
 @@ -322,6 +322,8 @@
